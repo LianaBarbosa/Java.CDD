@@ -1,13 +1,14 @@
-package rep1;
+package string;
 
 public class exercicio6 {
 	public static void main(String[] args) {
-		for(int l = 1; l < 51; l ++) {
-			if ( l % 2 != 0) {
-			continue;
+		  String texto[] = {"a", "vida", "é", "bela"};
+		    String texto2 = " ";
+		     for (int i = texto.length-1; i >=0; i--) {
+				
+		    	 texto2 = texto2 + texto[i] + " ";
 			}
-		System.out.println(l);
+		    System.out.println(texto2.toUpperCase());
 	}
 
-}
 }
